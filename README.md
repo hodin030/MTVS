@@ -3,4 +3,4 @@
 ### git repository test
 
 - java
-- mysq1
+- mysql
