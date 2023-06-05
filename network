@@ -1,0 +1,24 @@
+네트워크
+프로세스 연결하려면 소켓 필요(ip,port)
+TCP : 신뢰 높음, 속도 낮음, 연결지향(상대방이 수락해야 연결 가능)   ex) 전화, 
+    - http 문자열로만 데이터를 주고받는 가볍고 안정적인 어쩌구
+ip, port를 통해 소켓 연결, accept 메소드?
+UDP : 신뢰 낮음, 속도 높음, 비연결지향(상대방이 수락 안해도 ok)  ex) 소포
+내부 IP: 192.168.xx.xx
+외부 IP: 
+헤더
+general header  ex) line = GET / HTTP/1.1
+request header
+response header
+entity header
+content-Type: text/plain
+바디
+객체**
+상속**
+다형성** 동적 바인딩
+컬렉션 arraylist, hashmap *
+제네릭스 와일드카드 전까지?*
+입출력, 람다, 스트림(후순위)
+API - wrapper 클래스 파싱??
+- stringbuilder
+-스플릿
