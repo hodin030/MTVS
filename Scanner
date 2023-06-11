@@ -1,0 +1,12 @@
+
+콘솔창에서 입력할 수 있게 하는 코드
+
+Scanner sc = new Scanner(System.*in*);
+
+System.*out*.println("정수 한 개를 입력하세요 : ");
+
+int num = sc.nextInt(); → 숫자인 경우
+
+String str = sc.nextlLine(); → 문자열인 경우
+
+*문자열은 콘솔창에 입력된 값과 같은지 비교할 시 주소값이 다르기 때문에 같은 문자열도 false라고 나옴. 따라서 str1.equals(str2)로 써서 비교해야함
